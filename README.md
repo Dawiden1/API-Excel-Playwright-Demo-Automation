@@ -40,19 +40,34 @@ API-Excel-Playwright-Demo-Automation/
 ├── irradiance.py # Komunikacja z API
 
 ├── excels.py # Generowanie i przetwarzanie plików Excel
+
 ├── pdk_energa.py # Logowanie i upload przez Playwright
+
 │
+
 ├── clients/ # Przykładowe pliki JSON z klientami
+
 │ └── demo_client.json
+
 │
+
 ├── xlsx_files/ # Folder z szablonami i wynikowymi Excelami
+
 │ └── NazwaFirmy/
+
 │   ├── template.xlsx
+
 │   └── YYYYMMDD_uzupelniony.xlsx
+
 │
+
 ├── logs/ # Automatycznie tworzony katalog logów
+
 │ └── YY_MM/
+
 │   └── YY_MM_DD.log
+
 │
+
 ├── requirements.txt
 
