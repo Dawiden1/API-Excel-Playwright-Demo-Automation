@@ -1,8 +1,6 @@
 # API-Excel-Playwright-Demo-Automation
 
-# Energy Automation Demo
-
-**Energy Automation Demo** to pokazowa wersja rzeczywistej aplikacji automatyzującej przetwarzanie danych o nasłonecznieniu oraz generowanie raportów dla klientów z sektora energetycznego.  
+**API-Excel-Playwright-Demo-Automation** to pokazowa wersja rzeczywistej aplikacji automatyzującej przetwarzanie danych o nasłonecznieniu oraz generowanie raportów dla klientów z sektora energetycznego.  
 Projekt ma na celu zaprezentowanie w CV umiejętności programistycznych, pracy z API, przetwarzania danych w Excelu, logowania do serwisów webowych (Playwright) oraz organizacji aplikacji w Pythonie.
 
 ---
@@ -15,7 +13,7 @@ Aplikacja automatyzuje codzienny proces:
 3. Zalogowania się do panelu operatora i przesłania gotowego raportu.
 4. Rejestrowania pełnego logu procesu dla każdego klienta.
 
-Wersja demo nie zawiera rzeczywistych danych klientów ani prawdziwych danych logowania – wszystkie dane są przykładowe, a komunikacja z API i stroną docelową jest symulowana.
+Wersja demo nie zawiera rzeczywistych danych klientów ani prawdziwych danych logowania.
 
 ---
 
@@ -34,10 +32,13 @@ Wersja demo nie zawiera rzeczywistych danych klientów ani prawdziwych danych lo
 
 ## 🗂️ Struktura projektu
 
-energy-automation-demo/
+API-Excel-Playwright-Demo-Automation/
 │
+
 ├── main.py # Główny plik sterujący logiką aplikacji
+
 ├── irradiance.py # Komunikacja z API
+
 ├── excels.py # Generowanie i przetwarzanie plików Excel
 ├── pdk_energa.py # Logowanie i upload przez Playwright
 │
