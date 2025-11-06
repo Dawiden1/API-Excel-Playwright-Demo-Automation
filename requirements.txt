@@ -1,0 +1,7 @@
+requests
+openpyxl
+playwright
+python-dotenv
+pytz
+logging
+certifi

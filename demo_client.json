@@ -1,0 +1,10 @@
+{
+  "company": "DemoCompany",
+  "lat": 54.35,
+  "lon": 18.65,
+  "pdk_username": "demo_user",
+  "pdk_password": "demo_pass",
+  "additional": {
+    "city": "Gdańsk"
+  }
+}
